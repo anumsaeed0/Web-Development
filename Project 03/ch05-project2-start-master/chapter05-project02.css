@@ -1,0 +1,112 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+
+/* general text formatting */
+
+h1, h2, h3, nav, footer {
+ font-family: 'Merriweather', serif; 
+}
+body {
+   font-family: 'Open Sans', Arial, sans-serif;
+   font-size: 16px;
+   margin-left: 4%;
+   margin-right: 4%;
+}
+legend {
+   background-color: #616161 ;
+   color: white;
+   width: 99%;
+   text-align: center;
+   padding: 0.5%;
+   font-size: larger;
+}
+fieldset {
+   margin: 1em auto;
+   background-color: #f7f9f8;
+}
+select#bulk, select#genre {
+   font-size: small;
+   color: #333;
+   border:  1.2pt solid lightgray;
+   padding: 0.2%;
+}
+button[type=submit]{
+   height: 5%;
+   border: 1.2pt solid lightgray;
+   padding: 0.3%;
+   font-size: small;
+   margin-left: -0.7%;
+   background-image: linear-gradient(to bottom, white, lightgray);
+}
+select#bulk option, select#genre option {
+   font-size: small;
+   color: black;
+}
+div#searchBox, div#settingsBox, div#paintingBox {
+   margin: 0.25em auto;
+   background-color: #f7f9f8;
+   border: 1.6pt solid #adabab;
+
+}
+div#searchBox { 
+   margin-top: 1em; 
+   margin-bottom: 0%;
+}
+div#artistBox { 
+   background-color: #EEEEEE;
+}
+div#searchBox, div#settingsBox{
+   padding: 1%;
+   background-color: #e0e2e1;
+}
+div#paintingBox{
+   margin-top: 3%;
+   background-color: #f1f1f1;
+}
+input[type=search]{
+   height: 7%;
+   border: 1.2pt solid lightgray;
+   padding: 0.5%;
+   width: 30%;
+}
+input[type=search]::placeholder{
+   font-size:medium;
+   color: rgb(192, 190, 190);
+}
+table{
+   width: 98%;
+   margin: 1% auto;
+   border-collapse: separate;
+   border-spacing: 0 0em;
+}
+thead th{
+   padding: 0.25em;
+}
+tbody td{
+   text-align: left;
+   border-top: 0.2em solid #c5c7c6;
+   padding: 0.5em;
+}
+table caption {
+	background-color: #BDBDBD; 
+	color: black;
+   padding: 0.5%;
+   text-align: center;
+   margin: 0%;
+   font-weight: bold;
+}
+table thead{
+   background-color: #e0e2e1 ;
+   text-align: left;
+}
+tr>td>img{
+   padding: 0.16em;
+   border: 1pt solid darkgray;
+}
+table tbody{
+   border-bottom: none;
+}
+table tbody tr td:nth-child(3) {
+   font-style: italic;
+}
+ 

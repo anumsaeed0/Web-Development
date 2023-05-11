@@ -1,0 +1,138 @@
+/* general text formatting */
+
+
+body {
+   font-family: "Roboto", Verdana, Arial, sans-serif;
+   font-size: 100%;
+ background-color: #ECEFF1;    
+}
+table{
+    margin: 1% auto;
+    width: 95%;
+    font-size: large;
+}
+tr td, tr th{
+    padding: 1%;
+}
+th{
+    text-align: left;
+}
+progress{
+    width: 95%;
+    border-radius: 0%;
+    border: 1pt solid lightgray;
+}
+progress::-webkit-progress-value {
+    background-color: #6c99d8; 
+}
+progress::-webkit-progress-bar {
+    background-color: white;
+}
+section {
+   background-color: white;
+   margin: 1em 4em 1em 4em;
+   border: solid 1.4pt rgb(177, 176, 176);
+}
+section h3 {
+  color: white;
+  padding: 0.75rem;
+  background-color: #263238; 
+  font-size: xx-large;
+}
+
+.status {
+    border-radius: 0.25rem;
+    padding: 3px;
+    color: white;
+    
+}
+.status-processing {
+    background-color:    #E65100;    
+}
+.status-shipped {
+    background-color:   #4CAF50;    
+}
+.status-pending {
+    background-color:    #03A9F4;    
+}
+
+
+
+/* table formatting */
+
+
+table caption {
+	background-color: #607D8B; 
+	color: white;
+    padding: 0.5%;
+    text-align: center;
+}
+
+
+/* form formatting */
+
+
+legend {
+	background-color: #607D8B; 
+	color: white;
+    width: 99%;
+    text-align: center;
+    padding: 0.5%;
+    font-size: large;
+}
+form{
+    padding: 0.9%;
+}
+div{
+    padding: 1%;
+}
+div > label:first-child{
+    font-weight: bold;
+    font-size: larger;
+}
+div label{
+    font-size: larger;
+}
+select#country {
+    font-size: small;
+    color: #333;
+    border:  1.2pt solid lightgray;
+    padding: 0.2%;
+}
+select#country option {
+    font-size: small;
+    color: #333;
+}  
+input[type=text]{
+    height: 7%;
+    border: 1.2pt solid lightgray;
+    padding: 0.5%;
+}
+input[type=date]{
+    height: 1em;
+    border: 1.2pt solid lightgray;
+    padding: 0.6%;
+}
+input[type="date"]::-webkit-datetime-edit {
+    font-family: Arial, sans-serif;
+    font-size: small;
+    padding: 0.5%;
+}  
+input[type=text]::placeholder{
+    font-size:small;
+    color: rgb(192, 190, 190);
+}
+input[type=submit] {
+   background-color: #673AB7;
+    color: white;
+    border-style: none;
+    padding: 1%;
+    margin-top: 1%;
+    margin-left: 1%;
+    width: 7em;
+    font-size: larger;
+    text-align: center;
+}
+input[type=submit]:hover {
+    background-color: #6200EA;
+}

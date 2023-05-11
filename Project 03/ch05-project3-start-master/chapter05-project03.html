@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+   <meta charset="utf-8">
+   <title>Chapter 5 - Project 03</title>
+   <link rel="stylesheet" href="reset.css" />
+   <link rel="stylesheet" href="chapter05-project03.css" />
+</head>
+<body>
+<header>
+     <h1>Share Your Travels</h1>
+     <p>let us know where you've been</p>
+</header>
+<main>
+   <section>
+      <form method="post" action="http://www.randyconnolly.com/tests/process.php">
+         <table>
+            <caption>Photo Details</caption>
+            <thead>
+               <tr>
+                  <th colspan="2" class="spacing">
+                     <label for="title">Title</label> <br>
+                     <input type="text" name="title" id="title" placeholder="Give your photo a descriptive name" required>
+                  </th>
+               </tr>
+               <tr>
+                  <th colspan="2" class="spacing">
+                     <label for="description">Description</label> <br>
+                     <textarea id="description" name="description" rows="8" placeholder="Adding a rich description will help with search results" required></textarea>
+                  </th>
+               </tr>
+            </thead>
+            <tbody>
+               <tr>
+                  <td class="spacing">
+                     <label for="continent">Continent</label> <br>
+                     <select id="continent" name="continent" required>
+                        <option value="" selected>Choose continent</option>
+                        <option value="Asia">Asia</option>
+                        <option value="Africa">Africa</option>
+                        <option value="North America">North America</option>
+                        <option value="South America">South America</option>
+                        <option value="Antarctica">Antarctica</option>
+                        <option value="Europe">Europe</option>
+                        <option value="Australia">Australia</option>
+                      </select>
+                  </td>
+                  <td rowspan="3">
+                     <div style="margin-top: 4%;">
+                        <label for="copyright">Copyright?</label> <br>
+                        <input type="radio" name="copyright" id="copy1" value="1">
+                        <label for="copy1">All rights reserved</label><br/>
+                        <input type="radio" name="copyright" id="copy2" value="2">
+                        <label for="copy2">Creative Commons</label><br/>
+                     </div>
+                     <div>
+                        <label for="cc">Creative Commons Types</label> <br>
+                        <input type="checkbox" name="cc[]" id="cc1" value="1">
+                        <label for="cc1">Attribution</label><br/>
+                        <input type="checkbox" name="cc[]" id="cc2" value="2">
+                        <label for="cc2">Noncommercial</label><br/>
+                        <input type="checkbox" name="cc[]" id="cc3" value="3">
+                        <label for="cc3">No Derivative Works</label><br/>
+                     </div>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <label for="country">Country</label> <br>
+                     <select id="country" name="country" required>
+                        <option value="" selected>Choose a country</option>
+                        <option value="USA">USA</option>
+                        <option value="Canada">Canada</option>
+                        <option value="UK">UK</option>
+                        <option value="Australia">Australia</option>
+                        <option value="Japan">Japan</option>
+                        <option value="Korea">Korea</option>
+                     </select>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <label for="city">City</label> <br>
+                     <select id="city" name="city" required>
+                        <option selected>&nbsp;</option>
+                        <option>New York</option>
+                        <option>Los Angeles</option>
+                        <option>Chicago</option>
+                        <option>San Diego</option>
+                        <option>London</option>
+                        <option>Paris</option>
+                        <option>Tokyo</option>
+                     </select>
+                  </td>
+               </tr>
+               <tr>
+                  <td colspan="2">
+                     <p>I accept the software licence<input type="checkbox" name="accept" id="accept" value="on" required></p>
+                  </td>
+               </tr>
+               <tr>
+                  <td class="spacing">
+                     <label for="rate">Rate this photo:</label> <br>
+                     <input type="number" id="rate" name="rate" min="1" max="10" required>
+                  </td>
+                  <td rowspan="2">
+                     <div style="margin-top: 4%;">
+                        <table>
+                           <tr>
+                              <td style="padding-bottom: 1.5%; padding-left: 0%;">
+                                 <label for="date">Date Taken:</label> <br>
+                                 <input type="date" name="date" id="date" required><br>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td style="padding-bottom: 1.5%; padding-left: 0%;">
+                                 <label for="time">Time Taken:</label> <br>
+                                 <input type="time" name="time" id="time" required>
+                              </td>
+                           </tr>
+                        </table>
+                     </div>
+                  </td>
+               </tr>
+               <tr>
+                  <td class="spacing">
+                     <label for="color">Color Collection:</label><br>
+                     <input type="color" id="color" name="color" value="#000000" required>
+                  </td>
+               </tr>
+            </tbody>
+            <tfoot>
+               <tr>
+                  <td colspan="2">
+                     <p style="padding: 1%;">
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Clear Form">
+                     </p>
+                  </td>
+               </tr>
+            </tfoot>
+         </table>   
+      </form>
+      
+   </section>
+</main>  
+
+
+</body>
+</html>

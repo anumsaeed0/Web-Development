@@ -1,0 +1,169 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+/* general text formatting */
+
+h1, h2, h3, nav, footer {
+ font-family: Lobster, Cambria, "Times New Roman", serif;
+}
+body {
+   font-family: "Open Sans", Verdana, Arial, sans-serif;
+   font-size: 100%;
+   background-color: #E8EAF6;
+}
+
+
+/* header and navigation */
+
+header, footer {
+  color: white;
+  background-color: #1A237E;
+  margin: 0em 4em 0.25em 4em;
+}
+header h1 { 
+  padding: 0.5rem 0 0 1.25rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+header p { 
+  font-size: 1rem;
+  font-style: italic;
+  margin-bottom: 1rem;
+  padding: 0 0 0 1.25rem;
+}
+
+
+/* main article styling */
+main {
+   background-color: white;
+   margin: 1em 4em 1em 4em;
+   padding: 1em;
+}
+
+section {
+   margin-bottom: 1em;
+   padding: 0;
+   width: 100%;
+}
+td p{
+   background-color: #9FA8DA;
+   padding: 0.5%;
+}
+th{
+   font-weight: normal;
+}
+thead, tfoot, tbody{
+   margin: auto;
+
+}
+legend { 
+  font-size: 1.35rem;
+  background-color: #7986CB;
+  height: 1.70rem;
+  color: #E8EAF6;
+  text-transform: uppercase;
+    width: 100%;
+    margin: 0;
+    padding: 5px 0;
+}
+
+fieldset {
+   margin: 0;
+   padding: 0;
+   background-color: #C5CAE9;
+   width: 100%;
+   border: none;
+}
+form p {
+   margin-top: 0.5em;
+}
+table{
+   width: 100%;
+   background-color: #C5CAE9;
+}
+table caption{
+   background-color: #7a86c0;
+   text-transform: uppercase;
+   text-align: left;
+   padding: 0.5%;
+   font-size: larger;
+   color: white;
+   padding-left: 0%;
+}
+table thead .spacing{
+   padding-top: 1%;
+}
+table th{
+   text-align: left;
+   margin: 1%;
+
+}
+table thead th, table tbody td, table tr td{
+   padding-left: 0.5%;
+   margin: auto;
+}
+input[type=text], textarea{
+   width: 99.2%;
+}
+div{
+   padding: 1%;
+   margin-top: 1.4%;
+   margin-bottom: 1%;
+   font-size: small;
+   border: 1pt solid #adb1c7;
+   width: 97.2%;
+}
+label[for="copy1"], label[for="copy2"], label[for="cc1"], label[for="cc2"], label[for="cc3"] {
+   display: inline-block;
+}
+input[type="checkbox"] + label {
+   display: inline-block;
+}
+input[type=number]{
+   width: 4em;
+   height: 2em;
+   font-size: small;
+}
+label{
+   font-size: medium;
+}
+input[type=submit] , input[type=reset] {
+   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+   background-color: #E91E63;
+   outline: none;
+   border: none;
+   width: 7em;
+   height: 3em;
+   border-radius: 9%;
+   color: white;
+   font-size: small;
+   margin-right: 1%;
+}
+select {
+   font-size: small;
+   color: #333;
+   border:  1.2pt solid lightgray;
+   padding: 0.2%;
+   width: 15em;
+}
+input[type=text]{
+   height: 7%;
+   border: 1.2pt solid lightgray;
+   padding: 0.5%;
+   width: 98.7%;
+}
+input[type=text]::placeholder{
+   font-size:small;
+   color: rgb(192, 190, 190);
+}
+textarea{
+   border: 1.2pt solid lightgray;
+   padding: 0.5%;
+   width: 98.7%;
+   font-family: Arial, sans-serif;
+}
+#description::placeholder{
+   font-size:small;
+   font-family: Arial;
+   color: rgb(192, 190, 190);
+}
