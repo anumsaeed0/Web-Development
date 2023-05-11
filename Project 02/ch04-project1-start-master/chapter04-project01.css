@@ -1,0 +1,168 @@
+body{
+    font-family: sans-serif, serif;
+    display: flexbox;
+    margin: 0em 6em 0em 6em;
+    background-color: #E8EAF6;
+}
+/*Main Heading*/
+header{
+    background-color: #1A237E;
+}
+main{
+    margin: 0.8em 0em 0.8em 0em;
+    border: 0.1em solid #C5CAE9 ;
+    background-color: white;
+    color: #1A237E;
+    padding: 1em 1em 2em 1em;
+}
+h1{
+    color: white;
+    margin: 0.3em 0.3em 0em 0.3em;
+    padding-left: 0.29em;
+    padding-top: 0.29em;
+}
+#head-para{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin: 0em 0.3em 0.3em 0.6em;
+    padding-left: 0.55em;
+    padding-bottom: 0.29em;
+}
+/*Main Navigation Bar*/
+nav{
+    background-color: #3f51b5;
+    font-family: sans-serif;
+    font-size: larger;
+    padding: 0em 0.2em 0em 0.65em ;
+}
+#nav-bar {
+    overflow: hidden;
+    padding-right: 1.7em; 
+}
+#nav-bar ul {
+    list-style-type: none;
+    float: left;
+    margin: 0;
+    padding: 0.2em;
+}
+#nav-bar li {
+    display: inline-block;
+}
+#nav-bar li a{
+    display: inline-block;
+    padding: 0.1em 0.3em;
+    margin-right: 0.6em;
+    color: #00BFFF;
+}
+#nav-bar li a:hover {
+    background-color: #F50057;
+    color: #00B0FF;
+    text-decoration: none;
+}
+/*Sections*/
+h3{
+    background-color: #7986CB;
+    font-family: Calibri;
+    color: white;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: x-large;
+    padding: 0.5em;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+/*Sections-Central Park*/
+p.CP-Para{
+    color: #000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    font-size: small;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    border: 0.1em solid #C5CAE9 ;
+    background-color: white;;
+    padding: 0.6em;
+}
+figure{
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 62%;
+}
+figcaption{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0.6em;
+    background-color: #C5CAE9;
+    color: #1A237E;
+}
+#alpha-img{
+    width: 100%;
+}
+section{
+    border: 0.1em solid #C5CAE9 ;
+    margin-bottom: 1em;
+}
+/*Border*/
+.large-small, .img-large-small{
+    border: 0.1em solid #C5CAE9 ;
+    background-color: white;
+    color: #1A237E;
+    padding: 1em 1em 2em 1em;
+}
+div.img-large-small{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding: 0.26em;
+}
+div.large-small{
+    padding-top: 0.2em;
+    padding-bottom: 0.8em;
+}
+/*Sections-Related Photos*/
+div{
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+p.div-para{
+    color: #000;
+    line-height: 0;
+}
+/*Sections-Reviews*/
+section{
+    border: #1A237E 1px;
+}
+.comment{
+    font-family: 'Times New Roman';
+    color: black;
+}
+.byline{
+    font-style: italic;
+    font-family: 'Times New Roman';
+    color: #1A237E;
+}
+time{
+    color: #FF80AB;
+    font-family: Georgia;
+    font-weight: normal;
+}
+/*Footer*/
+footer{
+    background-color: #1A237E;
+    color: white;
+    font-family: sans-serif;
+    line-height: 35%;
+    margin: 0.3em 0em 0.3em 0em;
+    padding: 0.4em 1em 0.4em 1.4em;
+}
+#foot-para p{
+    font-style: italic;
+}
+#foot-bar a{
+    color: #00B0FF;
+}
+#foot-bar a:hover {
+    background-color: #F50057;
+    color: #00B0FF;
+    text-decoration: none;
+}

@@ -1,0 +1,74 @@
+html{
+    margin: 0.1em 0.1em 0.1em 0.1em;
+    border: 0.11em solid rgba(33,33,33,0.1);
+    padding: 0.5em;
+    background-image: url(images/art-background4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body{
+    font-family: Merriweather;
+    max-width: fit-content;
+}
+/*Header Body*/
+header{
+    background-color: rgba(33,33,33,0.5);
+    margin: 1em 50px 8em 4em;
+    box-shadow: 1.2em 1.2em 1.1em rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 0.67em;
+}
+h1{
+    line-height: 0;
+    font-size: xxx-large;
+}
+h2#head-h{
+    font-size: xx-small;
+}
+/*Main Body*/
+main{
+    margin: 1em 50px 4em 4em;
+    box-shadow: 1.2em 1.2em 1.2em rgba(0, 0, 0, 0.8);
+    background-color: rgba(224, 224, 224, 0.5);
+}
+h2#main-h {
+    background-color: rgba(224, 224, 224, 0.5);
+    padding: 0.6em;
+}
+#main-div{
+    padding: 0.4em;
+    padding-left: 0.8em;
+    margin-top: 0;
+}
+p#timeline{
+    background-color: rgba(66,66,66,0.5);
+    width: fit-content;
+    margin-right: 40%;
+    color: white;
+    padding: 0.4em;
+}
+#announcement{
+    margin-top: -1%;
+}
+sup, #footnote {
+    color: orangered;
+    font-style:italic ;
+    margin-top: -1%;
+    font-size: x-small;
+}
+/*Footer Body*/
+footer{
+    background-color: rgba(33,33,33,0.5);
+    margin: 1em 50px 4em 4em;
+    box-shadow: 1.2em 1.2em 1.2em rgba(0, 0, 0, 0.8);
+    padding: 0.6em;
+    padding-bottom: 1em;
+}
+h2#foot-h {
+    margin-bottom: 0.3em;
+    color: white;
+}
+.div-img{
+    border: 0.1em solid lightgrey;
+    padding: 0.4em;
+}
